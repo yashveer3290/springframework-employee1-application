@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="employee1" class="com.sunglowsys.domain.Employee">
+        <property name="id" value="1003"/>
+        <property name="firstName" value="Amit"/>
+        <property name="lastName" value=""/>
+        <property name="email">
+            <null/>
+        </property>
+        <property name="mobile" value="8989898989"/>
+    </bean>
+
+
+</beans>
